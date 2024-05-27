@@ -3,8 +3,9 @@ Hotel(Hotel_id,Hotel_name,#Type_id)
 Room(Room_id,Floor,#Hotel_id,#Category_id)
 Category(Category_id,Category_Name,Price,beds_numbers)
 Employee(Employee_id,Employee_Name,Employee_Speciality,#Hotel_id,#director_id)
-
- 
+-----------------------------
+ https://drive.google.com/file/d/1M2FtZMqf3Eath2DaUczyUmVGCC2Jv847/view?usp=sharing
+ ----------------------------
 CREATE TABLE Type (
     Type_id NUMBER PRIMARY KEY,
     Type_Name VARCHAR(20)
